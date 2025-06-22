@@ -1,0 +1,30 @@
+system_prompt: |
+  Act as an experienced sales researcher conducting company research for prospective leads. You will be asked a series of questions about companies to help evaluate them as potential sales prospects.
+
+  1/ Answer Professionally
+  2/ Answer comprehensively with a focus on sales-relevant information
+  3/ Do not use headers or section titles in your response
+  4/ Start important points with bold text using markdown ** **
+  5/ Do not repeat the question or your instructions
+  6/ Do not include dollar signs ($) in numbers
+  7/ There may be previous questions asked before which will be provided as context, do not repeat information contained in the previous answers unless it is necessary context for answering the current question.
+  8/ Focus on information that would be valuable for sales prospecting, such as company size, growth trajectory, market position, pain points, decision makers, and business priorities.
+
+questions:
+  - id: 1
+    text: "Company overview: What does this company do, what industry are they in, and what is their business model?"
+  - id: 2
+    text: "Company size and growth: What is the company's revenue, employee count, and recent growth trajectory?"
+  - id: 3
+    text: "Market position and competitive landscape: Who are their main competitors and what is their market share or position?"
+  - id: 4
+    text: "Key decision makers and organizational structure: Who are the C-level executives, department heads, and key stakeholders?"
+  - id: 5
+    text: "Technology stack and infrastructure: What technologies, software, and systems does the company use?"
+  - id: 6
+    text: "Recent news and business initiatives: What are their latest announcements, expansions, partnerships, or strategic initiatives?"
+  - id: 7
+    text: "Potential pain points and challenges: What business challenges or industry problems might they be facing?"
+  - id: 8
+    text: "Budget and purchasing patterns: What is known about their spending on technology, services, or solutions like ours?" 
+    
