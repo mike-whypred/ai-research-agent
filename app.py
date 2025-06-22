@@ -23,10 +23,7 @@ hide_streamlit_style = """
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
-[data-testid="stSidebar"] {
-    min-width: 400px;
-    max-width: 400px;
-}
+
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
