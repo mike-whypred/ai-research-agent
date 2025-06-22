@@ -27,10 +27,6 @@ header {visibility: hidden;}
     min-width: 400px;
     max-width: 400px;
 }
-[data-testid="stSidebar"][aria-expanded="false"] {
-    min-width: 0px;
-    max-width: 0px;
-}
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
