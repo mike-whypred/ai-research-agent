@@ -23,9 +23,17 @@ hide_streamlit_style = """
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
-[data-testid="stSidebar"][aria-expanded="true"] {
-    min-width: 400px;
-    max-width: 400px;
+.css-1d391kg, .css-1lcbmhc, .css-1cypcdb, .css-17eq0hr {
+    min-width: 400px !important;
+    max-width: 400px !important;
+}
+section[data-testid="stSidebar"] > div {
+    min-width: 400px !important;
+    max-width: 400px !important;
+}
+section[data-testid="stSidebar"]:not([aria-expanded="false"]) {
+    min-width: 400px !important;
+    max-width: 400px !important;
 }
 </style>
 """
