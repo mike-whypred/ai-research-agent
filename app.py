@@ -6,6 +6,17 @@ from datetime import datetime
 import yaml
 from markdown import markdown
 
+# Page configuration
+st.set_page_config(
+    page_title="Sales Prospect Research Agent",
+    page_icon="🎯",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'About': "AI-powered sales prospect research tool for generating comprehensive company reports"
+    }
+)
+
 # Hide the GitHub icon and other default elements
 hide_streamlit_style = """
 <style>
